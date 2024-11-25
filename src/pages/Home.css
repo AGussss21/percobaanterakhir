@@ -1,0 +1,63 @@
+/* Home Page Styles */
+.home-header {
+    background-color: #fff;
+    padding: 1rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-title {
+    font-size: 2rem;
+    color: #2f6a35;
+    font-weight: bold;
+  }
+  
+  .home-description {
+    color: #666;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .home-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .home-card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .home-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+  }
+  
+  .home-card h3 {
+    margin-top: 1rem;
+    color: #2f6a35;
+  }
+  
+  .home-card p {
+    margin-top: 0.5rem;
+    color: #555;
+  }
+  
+  .home-card a {
+    display: inline-block;
+    background-color: #2f6a35;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .home-card a:hover {
+    background-color: #3a5a2f;
+  }
+  
